@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         let newView = UIView()
         container.addSubview(newView)
         
-        newView.layer.borderWidth = 2
+        newView.layer.borderWidth = 1
         newView.layer.borderColor = UIColor(red: CGFloat.random(in: 0...255)/255, green: CGFloat.random(in: 0...255)/255, blue: CGFloat.random(in: 0...255)/255, alpha: 1).cgColor
         newView.backgroundColor = .clear
         
